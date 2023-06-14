@@ -48,10 +48,8 @@ def donwload_imaged(img_list, img_dir_path):
                     file.close()
             except OSError as ex:
                 print(f'{item_url} : {ex}')
-                pass
         else:
             print(f'This link is unavaible: {item_url}')
-            pass
 
 def main():
     query = input('Enter page link: ')
